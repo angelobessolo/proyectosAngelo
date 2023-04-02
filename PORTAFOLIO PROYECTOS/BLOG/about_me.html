@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angelo Mateo Bessolo Rueda">
+    <meta name="descripction" content="Portafolio desarrollador web Angelo Bessolo">
+    <meta name="kewords" content="Front-End, Back-End, Html, Js, Css, Bootstrap, React, Desarrollo, Responsive, Maquetación, Software, Spa">
+    <link rel="icon" href="./assets/images/technology.png">
+    <title>BessolTech</title>
+
+    <!-- Estilos Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Estilos Estilos CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light navar-light">
+        <div class="container-fluid d-flex-row">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex-row collapse navbar-collapse" id="navbar-toggler">
+            <div class="title-nav d-flex justify-content-center align-content-center align-items-center">
+                <a class="navbar-brand animate__animated animate__tada" href="./index.html">
+                    <img src="./assets/images/technology.png" alt="" width="45" height="45">
+                </a>
+
+                <h1 class="title-nav animate__animated animate__tada">BessolTech</h1>
+            </div>
+
+            
+            <ul class="navbar-nav d-flex justify-content-center align-content-center align-items-center navbar-nav-li"> 
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="./about_me.html">ABOUT ME</a>
+             </li>
+
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 PROYECTS
+               </a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <li><a class="dropdown-item" href="./proyects_finished.html">FINISHED</a></li>
+                 <li><a class="dropdown-item" href="./proyects_in_pogress.html">IN PROGRESS</a></li>
+               </ul>
+             </li>
+
+             <li class="nav-item">
+               <a class="nav-link" href="./contact.html">CONTACT</a>
+             </li>
+
+             <a class="navbar-brand" href="./index.html">
+               <img src="./assets/images/user.png" alt="" width="45" height="45">
+             </a>
+            </ul>            
+          </div>
+        </div>  
+    </nav>
+
+    <section class="hero section-about-me  align-items-stretch position-relative">
+      <div class="hero-content d-flex flex-column justify-content-center align-items-center">
+        <div class="rounded-circle border border-5 border-success m-3">
+          <img src="./assets/images/Angelo-Bessolo3.jpeg" class="rounded-circle" alt="Foto perfil angelo bessolo">
+        </div>
+        <h1 class="content-heroh1 text-danger">Soy Angelo Bessolo</h1>
+        <h2>Desarollador De Softare</h2>
+      </div>
+
+      <div class="hero-inferior container-fluid d-flex flex-row flex-wrap flex-fill justify-content-center align-content-center ">
+          <!--Skill Html-->
+          <div class="m-1">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalhtml">
+                    HTML
+                </button>
+          
+                  <!-- Modal -->
+                <div class="modal fade" id="modalhtml" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">EXPERIENCIA HTML</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-start">
+                          <p> 
+                            Tengo conocimientos solidos de maquetacion web en los cuales he aprendido a manejar las estructuras utlizadas 
+                            con HTML5 para poder realizar proyectos en los cuales utilizando buenas practicas y aplicando de forma correcta 
+                            las etiquetas semanticas que nos proporsiona HTML.           
+                          </p>    
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>         
+          </div>  
+          <!--Skill Html-->
+
+          <!--Skill Css-->
+          <div class="m-1">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalcss">
+                    CSS
+                </button>
+          
+                  <!-- Modal -->
+                <div class="modal fade" id="modalcss" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">EXPERIENCIA CSS</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-start">
+                          <p>
+                            De forma totalmente autonoma con ayuda de curos como Platzi, OpenBootcamp, documentacion y varios 
+                            cursos en youtube he logrado obtener excelentes Skills en el manejo de CSS para dar estilo a un sitio
+                            web con unas buenas practicas de diseño y manejo del Responsive Designe para poder obtener sitios web 100% funcionales 
+                            y que adicionalmente sean estructurados de forma correcta para dar una experiencia al usuario amigable, atractiva
+                            y qnuestro sitio webpueda generar un alto impacto en el cliente. 
+                          </p> 
+
+                          <h5 class="text-danger">DEVELOPER SKILLS CSS 🏋️‍♂️</h5>
+                          <ul class="list-group">
+                            <li class="list-group-item list-group-item-success">Bootstrap5</li>
+                            <li class="list-group-item list-group-item-success">Animation</li>
+                            <li class="list-group-item list-group-item-success">Responsive Designe</li>
+                            <li class="list-group-item list-group-item-success">Mobile Firtst</li>
+                          </ul>   
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>         
+          </div>  
+          <!--Skill Css-->
+
+          <!--Skill Js-->
+          <div class="m-1">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaljs">
+                  JS
+              </button>
+        
+                <!-- Modal -->
+              <div class="modal fade" id="modaljs" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">EXPERIENCIA JS</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body text-start">
+                        <p>
+                          Tengo conocimientos solidos en JS por medio de los cuales puedo relizar implementación de aplicativos web en los cuales 
+                          se requiera brindar una mejor experencia al usuario con interacción y utilizando todos los beneficios que proforsiona 
+                          el desarrollo de software moderno. tengo conocimientos en el desarrollo web por medio de frameworks front end como lo 
+                          es Angular.Js y adicionalmente de lado del servidor puedo trabajar con Node.Js 
+                          de forma autonoma me he capacitado en desarrollo con el Stack (MEAN)  
+                        </p> 
+
+                        <h5 class="text-danger">DEVELOPER SKILLS JS 🏋️‍♂️</h5>
+                        <ul class="list-group">
+                          <li class="list-group-item list-group-item-success">Stack MEAN</li>
+                          <li class="list-group-item list-group-item-success">Events</li>
+                          <li class="list-group-item list-group-item-success">Dev Tools</li>
+                          <li class="list-group-item list-group-item-success">Testing</li>
+                          <li class="list-group-item list-group-item-success">Clean Code</li>
+                        </ul>   
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>         
+          </div> 
+          <!--Skill Js-->
+
+          <!--Skill Java-->
+          <div class="m-1">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaljava">
+                Java
+            </button>
+      
+              <!-- Modal -->
+            <div class="modal fade" id="modaljava" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">EXPERIENCIA JAVA</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                      <p>
+                        Cuento con habilidades de todo el paradigma de la POO con conociemiento solidos en el manejo de objetos con el lenguaje 
+                        de programacón java, buen conocimiento a nivel de estructuras de control, arrays, mapas, interfaces, implementacion de interfaces,
+                        herencia, polimorfismo, abstracción y todos los conceptos inmersos en el lenguaje de programaión java orientados al desarrollo web  
+                      </p> 
+
+                      <h5 class="text-danger">DEVELOPER SKILLS JAVA 🏋️‍♂️</h5>
+                      <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">Design Patrons</li>
+                        <li class="list-group-item list-group-item-success">POO</li>
+                        <li class="list-group-item list-group-item-success">ABSTRACTION</li>
+                        <li class="list-group-item list-group-item-success">ENCAPSULATION</li>
+                        <li class="list-group-item list-group-item-success">POLYMORPHISM</li>
+                        <li class="list-group-item list-group-item-success">INHERITANCE</li>
+                      </ul>   
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+            </div>         
+          </div> 
+          <!--Skill Java-->
+
+          <!--Other Skills-->
+          <div class="m-1">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalskills">
+                Bonus Skills
+            </button>
+      
+              <!-- Modal -->
+            <div class="modal fade" id="modalskills" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Bonus Skills</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                      <p>
+                        Tengo varios conocimientos los cuales voy a describir a continuación, a pesar de contar con poca experiencia como
+                        programador de apliactivos web ya que trabajo actualmente como programador cobol para el core bancario, he fortalecido con 
+                        el pasar del tiempo las skills mas fuertes en los cuales quiero orientar mi presente y futuro profesional. Todos los Skills
+                        expuestos en la presente sección han sido adquiridos de forma autonoma con muchas ganas y perseverancia. Me considero un soñador
+                        apasionado por la tecnologia y con metas las cuales no tiene fin.
+                      </p> 
+
+                      <h5 class="text-danger">BONUS SKILLS  🏋️‍♂️</h5>
+                      <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">Apirest</li>
+                        <li class="list-group-item list-group-item-success">Wem Services</li>
+                        <li class="list-group-item list-group-item-success">Figma</li>
+                        <li class="list-group-item list-group-item-success">UX - UI</li>
+                        <li class="list-group-item list-group-item-success">Github</li>
+                        <li class="list-group-item list-group-item-success">Notion</li>
+                        <li class="list-group-item list-group-item-success">Microsoft Office</li>
+                        <li class="list-group-item list-group-item-success">Visual Studio Code</li>
+                        <li class="list-group-item list-group-item-success">Metodologi Scrum</li>
+                        <li class="list-group-item list-group-item-success">Testing / Debugging</li>
+                        <li class="list-group-item list-group-item-success"> CLI (Línea de comandos)</li> 
+                      </ul>   
+                    
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+            </div>         
+          </div> 
+          <!--Other Skills-->
+      </div>
+
+      <div class="container-content container-sm d-flex flex-column col-sm-6 justify-content-center align-items-center p-5">
+          <div >
+            <h3 class="container-title">Los limites solamente existen en tu imaginacion, si lo crees posible lo hacemos realidad</h3>
+          </div>
+      </div>   
+      
+      <div class="blogpost-container container-fluid d-flex flex-column bg-white text-start">
+        <div class="container-gif-title">
+          <h3>ACERCA DE MI</h3>
+          <img src="./assets/icons/espiar.gif" alt="gif de icono de un ojo espiando">
+        </div>
+        
+        <article class="mt-4">
+            <h1>HABILIDADES DESTACADAS</h1>
+            <p>En la actualidad me he desempeñado como ingeniero de desarrollo en el sector Financiero realizando analisis, desarrollo, mantenimiento y pruebas unitarias de software a requeremientos los cuales todos giran en torno al core bancario de dicha compañia.</p>
+
+            <p>Cuento con conocimientos de tecnologias las cuales son de gran utilidad en diferentes procesos del desarrllo de aplicativos web y de las metologias agiles que ayudan en el proceso del desarrllo dentro de un equipo colaborativo. Soy un apasionado por la tecnologia y todas las lineas TI que de ella derivan.</p>
+
+            <p>Poseo grandes capacidades de trabajo en equipo y cuento con grandes aptitudes para poder desempeñar cualquier labor que se me asigne, sacando el mayor provecho a la Experiencia y tratando de fortalecer dia tras dia todos los conocimintos que poseo y que puedo llegar a obtener con metas claras y objetivos propuestos dentro de la organización .</p>
+        </article>
+      </div>
+    </section>
+
+    <footer class="bg-light text-center ">
+        <!-- Grid container -->
+        <div class="container p-4">
+      
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="bi bi-facebook"></i></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #d8259c" href="https://www.instagram.com/angelobessolo/" role="button"><i class="bi bi-instagram"></i></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="https://www.linkedin.com/in/angelo-mateo-bessolo-6b02ab247/" role="button"><i class="bi bi-linkedin  "></i></a>
+            <!-- Github -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="https://github.com/angelobessolo/proyectosAngelo" role="button"><i class="bi bi-github"></i></a>
+          </section>
+          <!-- Section: Social media -->
+      
+      
+          <!-- Section: Form -->
+          <section class="">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline mb-4">
+                    <input type="email" id="form5Example2" class="form-control" />
+                    <label class="form-label" for="form5Example2">Email address</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-auto">
+      
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-primary mb-4">
+                    Subscribe
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2023 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/">BessoloTech.com</a>
+        </div>
+        <!-- Copyright -->  
+    </footer>
+
+    <!-- Incluye Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

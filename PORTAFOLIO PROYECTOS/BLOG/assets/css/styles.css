@@ -37,6 +37,116 @@
     max-width: 1000px;
 }
 
+.title-nav{
+    margin: 0px;
+    padding: 10px;
+}
+
+.container-cards-proyects{
+    max-width: 300px;
+}
+
+/* ABOUT_ME */
+/* SECCION HERO */
+
+.section-about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-heroh1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+
+}
+
+.hero{
+    position: relative;
+    isolation: isolate;
+    text-align: center;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .5;
+    background-image: url(../images/nave.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-content h2{
+    font-size: 1.7rem;
+    color: #131212;
+}
+
+.container-title{
+    font-family: 'Roboto mono';
+    font-size: 45px;
+    font-weight: 600;
+    color: #511616;
+}
+
+.modal-backdrop{
+    position:inherit;
+}
+
+.container-gif-title{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+
+.container-gif-title h3{
+    align-self: flex-end;
+}
+.container-gif-title img{
+    width: 150px;    
+}
+
+.blogpost-container{
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h1{
+    font-size: 35px;
+}
+
+.contact{
+    border-radius: 20px;
+    max-width: 800px;
+    background-color: white;    
+}
+
+.container-contact{
+    background-image: url('../images/image-contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+
+ 
+/* span{
+    width: 45px;
+    height: 45px;
+    background-image: url(../icons/css-3.png);
+    position: fixed;
+    top: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
 
 
 /* .carousel-item{
