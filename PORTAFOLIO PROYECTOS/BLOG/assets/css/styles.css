@@ -123,17 +123,25 @@
 
 .contact{
     border-radius: 20px;
+    min-width: 300px;
     max-width: 800px;
     background-color: white;    
 }
 
 .container-contact{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
     background-image: url('../images/image-contact.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px;
 }
+
+/* .bi{
+    font-size: 2rem;
+} */
 
 
  
@@ -169,5 +177,11 @@
 @media screen and (max-width: 590px){
     .navbar-brand{
         display: none;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .container-information{
+        flex-direction: column;
     }
 }
