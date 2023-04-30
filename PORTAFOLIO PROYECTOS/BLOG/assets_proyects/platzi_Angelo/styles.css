@@ -1,0 +1,75 @@
+.card-container{
+    border: 2px solid;
+    margin: 10px auto 50px;
+    width: 330px;
+    height: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.burbuja{
+    background: url(image/programacion.jpg);
+    height: 180px;
+    
+}
+.foto{
+    position: absolute;
+    top: 60px;
+    left: 28%;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 150px;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(76, 113, 145);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(14, 13, 13);
+}
+.datos-personales{
+    background-color: white;
+    height: 95px;
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;   
+}
+.name{
+    font-weight: 700;
+}
+.age, .city{
+    color: rgb(66, 64, 64);
+}
+.city{
+    border-bottom: 1px solid black;
+}
+.logofacebook img{
+    height: 32px;
+    width: 32px;
+}
+.logojira img{
+    height: 32px;
+    width: 32px;
+    
+}
+.logogitlab img{
+    height: 32px;
+    width: 32px;
+}
+.stats-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 9px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(66, 64, 64);
+}
+.social-reds{
+    text-align: center;
+}

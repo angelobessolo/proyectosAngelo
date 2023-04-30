@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+.header--nav-elgaucho{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background: radial-gradient(#f0ece1, #b6ae81);
+}
+.elgaucho--logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    background-image: url('https://img.freepik.com/vector-gratis/diseno-plano-gaucho-bebiendo-mate-ilustracion_23-2149217267.jpg?size=338&ext=jpg&ga=GA1.2.1960131727.1646526405');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.elgaucho--content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: auto auto;
+}
+.menu--elgaucho{
+    display: flex;
+    list-style: none;
+}
+.menu--elgaucho li{
+    margin-right: 20px;
+}
+.menu--elgaucho li a:hover{
+    color: #ec1010;
+}
+.menu--elgaucho a{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffa600;
+    text-decoration: none;
+}
+.main--elgaucho{
+    min-width: 375px;
+}
+.elgaucho--image{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.principal-grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 400px 200px;
+    place-content: center;
+    
+}
+.grid-hamburguesa{
+    background-image: url('https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/08/hamburguesa-2028707.jpg?itok=ujl3qgM9');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: 1/ 1/ 2/ 4;
+}
+.grid-perro{
+    background-image: url('https://www.saborusa.com/wp-content/uploads/2019/10/Siente-el-increible-sabor-de-un-perro-caliente-al-estilo-americano-Foto-destacada.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: 2/ 1/ 3/ 3;
+}
+.grid-pizza{
+    background-image: url('https://w6h5a5r4.rocketcdn.me/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso-1080x671.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: 2/ 3/ 3/ 4;
+}
+.grid-picada{
+    background-image: url('https://cdn.colombia.com/gastronomia/2016/06/21/picada-colombiana-2990.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: 3/ 1/ 4/ 4;
+}
+.grid-postre{
+    background-image: url('https://peterpan24horas.com/wp-content/uploads/2018/08/DSC_0105.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: 4/ 1/ 5/ 3;
+}
+.grid-coctel{
+    background-image: url('https://cocteles.club/wp-content/uploads/como-hacer-un-coctel-sex-on-the-beach.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: 4/ 3/ 4/ 5;
+}

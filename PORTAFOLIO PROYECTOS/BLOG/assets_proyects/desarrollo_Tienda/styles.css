@@ -1,0 +1,234 @@
+/*estilos de creacion de contraseña*/
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background:#7d9780
+
+}
+.login{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    place-items: center;    
+}
+.form-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    justify-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+.logo{
+    width: 150px;
+    margin-bottom: 48px;
+    justify-self: center;
+    display: none;
+}
+.tittle{
+    font-size: var(--lg);
+    margin-bottom: 12px;
+    text-align: center;
+}
+.subtitle{
+    color: var(--very-light-pink) ;
+    font-size: var(--md);
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.label{
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.input{
+    background-color: var(--text-input-field);
+    border: none;
+    border-radius: 8px;
+    height: 20px;
+    font-size: var(--md);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.primary-button{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    height: 20px;
+    width: 150px;
+    align-content: center;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;  
+    margin-top: 8px;
+    margin: auto;
+    display: block;
+}
+@media (max-width: 640px){
+    .logo{
+        display: block;
+    }
+}
+.requerimientos{
+    color: var(--very-light-pink) ;
+    font-size: var(--sm);
+}
+
+
+
+
+/*estilos de envio de email*/
+.email-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(177, 34, 34)
+}
+.email-image img{
+    width: 80px;
+}
+.resend{
+    font-size: var(--sm);
+}
+.resend span{
+    color: var(--very-light-pink);
+}
+
+p a{
+    color: rgb(236, 233, 233);
+    text-decoration: none;
+}
+
+
+
+
+/*estilos de login de usuario*/
+.input-name, 
+.input-email, 
+.input-password {
+    background-color: var(--text-input-field);
+    border: none;    
+    border-radius: 8px;
+    height: 20px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-bottom: 15px;
+}
+.input-name::placeholder {
+    color: var(--very-light-pink);
+    font-size: var(--sm);
+}
+.input-email::placeholder {
+    color: var(--very-light-pink);
+    font-size: var(--sm);
+}
+.input-password::placeholder {
+    color: var(--very-light-pink);
+    font-size: var(--very-light-pink);
+
+}
+
+
+
+
+/*estilos de edicion de cuenta*/
+.value{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 25px;
+}
+.label-edit{
+    height: 4px;   
+}
+
+
+
+
+/*estilos de inicio productos*/
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+}
+.product-card{
+    width: 240px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info figure img{
+    width: 35px;
+    height: 35px;
+
+}
+.info figure{
+    margin: 0;
+}
+.product-card img{
+    width: 240px;
+    height: 838px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+
+
+/*estilos de inicio productos*/
+.desktop-menu{
+    width: 120px;
+    height: auto;
+    border: 1px solid;
+    border-color: var(--very-light-pink);
+    border-radius: 6px;
+    padding: 1em;
+}
+.desktop-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.desktop-menu ul li{
+    text-align: end;  
+}
+
+ul :nth-child(3){
+    padding-top: 20px;
+    border-top: 2px solid;
+    border-color: var(--very-light-pink);
+}
+.desktop-menu ul li{
+    margin-bottom: 15px;
+}
+li a{
+    text-decoration: none;
+    color:rgb(6, 6, 252);
+    font-weight: 500;
+    font-size: var(--md);
+}
+
+
+
+

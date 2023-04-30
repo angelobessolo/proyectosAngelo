@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESCRIPCION PRODUCTO</title>
+    <style>
+
+    :root {
+        --white: #FFFFFF;
+        --black: #000000;
+        --very-light-pink: #C7C7C7;
+        --text-input-field: #F7F7F7;
+        --hospital-green: #ACD9B2;
+        --sm: 14px;
+        --md: 16px;
+        --lg: 18px;
+    }
+    body{
+        margin: 0;
+        font-family: sans-serif;
+        background-color: rgb(133, 130, 130);
+    }
+    .primary-button{
+        background-color: var(--hospital-green);
+        border-radius: 8px;
+        border: none;
+        color: var(--white);
+        width: 100%;
+        height: 50px;
+        align-content: center;
+        cursor: pointer;
+        font-size: var(--md);
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .product-detail{
+        width: 400px;
+        padding-bottom: 24px;
+        position: absolute;
+        right: 0;
+    }
+    .product-detail-close:hover{
+        cursor: pointer;
+    }
+    .product-detail-close img{
+        position: absolute;
+        z-index: 2;
+    }
+    .product-detail-close{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top :12px;
+        left: 12px;
+        width: 25px;
+        height: 25px;
+        z-index: 2;
+        padding: 4px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .detalleImagenAside{
+        width: 100%;
+        height: 250px;
+        border-radius: 20px;
+    }
+    .parrafo{
+        display: flex;
+        flex-direction: column;  
+        margin-bottom: 30px;  
+    }
+    .parrafo p:nth-child(1){
+        height: 0; 
+        font-size: var(--md);   
+        font-weight: bold;
+    }
+    .parrafo p:nth-child(2){
+        height: 0; 
+        font-size: var(--sm); 
+        font-weight: bold;  
+        color: #C7C7C7;
+    }
+    @media (max-width: 600px){
+        .product-detail{
+            width: 100%;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <aside class="product-detail">
+        <div class="product-detail-close">
+            <img src="./icons/icon_close.png" alt="Close">
+        </div>
+
+        <img class="detalleImagenAside" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://cyclowood.com/wp-content/uploads/2019/11/Bicicleta-de-montan%CC%83a-Canyon-Spectral-CF-9.0.jpg" alt="Bike">
+       
+        <div class="product">
+            
+            <div class="parrafo">
+                <p>800,00</p>
+                <p>Bike</p>
+            </div>
+            <p>En un tablero de juegos, la Rockhopper Sport es la jugadora perfecta, ataca en rendimiento y defiende gracias a su calidad-precio.
+               Lista para el juego con los frenos de disco hidráulicos Tektro, transmisión Altus de Shimano y una horquilla SR Suntour XCM hecha para el ajetreo
+            </p>
+            <button class="primary-button">
+                <img src="./icons/bt_add_to_cart.svg" alt="add-cart">
+                Add to cart
+            </button>
+        </div>
+    </aside>
+</body>
+</html>

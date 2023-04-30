@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVBAR</title>
+    <style>
+
+         :root {
+            --white: #FFFFFF;
+            --black: #000000;
+            --very-light-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --hospital-green: #ACD9B2;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+         }
+        .menu{
+            display: none;
+
+        }
+        .logo{
+            width: 150px;
+            margin-right: 50px;
+        }
+        .navbar-left ul{
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .navbar-right ul{
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .navbar-left ul li a, .navbar-right ul li a{
+            text-decoration: none;
+            color: var(--very-light-pink);
+            border: 1px solid var(--white);
+
+        }
+        .navbar-left ul li a:hover, .navbar-right ul li a:hover{
+            border: 1px solid var(--hospital-green);
+            color: var(--hospital-green);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .navbar-left, .navbar-right{
+            display: flex;
+        }
+
+        ul li{
+            margin-right: 50px;
+        }
+        nav{
+            display: flex;
+            width: 100%;
+            height: 50px;
+            justify-content: space-between;
+            border-bottom: 1px solid rgb(211, 206, 206);
+        }
+        .navbar-email{
+            font-size: var(--sm);
+            color: var(--very-light-pink);
+        }
+        .navbar-shoping div{
+            width: 14px;
+            height: 14px;
+            background-color: var(--hospital-green);
+            border-radius: 50%;
+            font-size: var(--sm);
+            font-weight: bold;
+            text-align: center;
+            position: absolute;
+            top: 0px; left: 23px;
+        }
+        .navbar-shoping{
+            position: relative;
+        }
+        @media (max-width: 640px){
+            .menu{
+                display: block;
+            }
+            .navbar-left ul{
+                display: none;
+            }
+            .navbar-email{
+                display: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="./icons/icon_menu.svg" alt="menu" class="menu">
+    
+
+        <div class="navbar-left">
+            <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo">
+        
+            <ul>
+                <li>
+                    <a href="/">All</a>
+                </li>
+
+                <li>
+                    <a href="/">Clothes</a>
+                </li>
+
+                <li>
+                    <a href="/">Electronics</a>
+                </li>
+
+                <li>
+                    <a href="/">Furnitures</a>
+                </li>
+
+                <li>
+                    <a href="/">Toys</a>
+                </li>
+
+                <li>
+                    <a href="/">Others</a>
+                </li>
+            </ul>
+        
+        </div>
+
+        <div class="navbar-right">
+
+            <ul>
+                <li class="navbar-email">
+                    angelobessolo@gmail.com
+                </li>
+
+                <li class="navbar-shoping">
+                     <img src="./icons/icon_shopping_cart.svg" alt="shoping-cart">
+                     <div>2</div>
+                </li>
+            </ul>
+
+            
+        </div>
+    </nav>
+</body>
+</html>

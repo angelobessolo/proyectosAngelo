@@ -19,49 +19,6 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <!-- <nav class="navbar navbar-expand-sm navbar-light navar-light">
-        <div class="container-fluid d-flex-row">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="d-flex-row collapse navbar-collapse" id="navbar-toggler">
-            <div class="d-flex">
-                <a class="navbar-brand" href="./index.html">
-                    <img src="./assets/images/technology.png" alt="" width="45" height="45">
-                </a>
-
-                <h1 c>Proyects Finished</h1>
-            </div>
-
-            
-            <ul class="navbar-nav d-flex justify-content-center align-content-center align-items-center navbar-nav-li"> 
-             <li class="nav-item">
-               <a class="nav-link active" aria-current="page" href="./about_me.html">ABOUT ME</a>
-             </li>
-
-             <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 PROYECTS
-               </a>
-               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                 <li><a class="dropdown-item" href="./proyects_finished.html">FINISHED</a></li>
-                 <li><a class="dropdown-item" href="./proyects_in_pogress.html">IN PROGRESS</a></li>
-               </ul>
-             </li>
-
-             <li class="nav-item">
-               <a class="nav-link" href="./contact.html">CONTACT</a>
-             </li>
-
-             <a class="navbar-brand" href="./index.html">
-               <img src="./assets/images/user.png" alt="" width="45" height="45">
-             </a>
-            </ul>            
-          </div>
-        </div>  
-    </nav> -->
-    
-      <!-- Background image -->
     <div
         class="container-fluid d-flex flex-column p-lg-1 text-center bg-image"
         style="
@@ -69,9 +26,9 @@
           height: auto;
         "
       >
-        <div class="container-fluid d-flex flex-row  justify-content-between">
+          <div class="container-fluid d-flex flex-row  justify-content-center gap-3 flex-wrap">
             <div class="title-nav d-flex justify-content-center align-content-center">
-                <a class="navbar-brand" href="./index.html">
+                <a class="navbar-brand" href="./home.html">
                     <img src="./assets/images/technology.png" alt="" width="45" height="45">
                 </a>
 
@@ -79,41 +36,40 @@
             </div>
 
             <ul class="navbar-nav d-flex flex-row justify-content-center align-content-center align-items-center navbar-nav-li">   
-                <li class="nav-item">
-                  <a class="nav-link active text-dark p-2 font-weight-bold" aria-current="page" href="./index.html">HOME</a>
+                <li class="nav-li">
+                  <a class="nav-link active text-dark p-2 font-weight-bold" aria-current="page" href="./indexx.html">Home</a>
                 </li>
    
-                <li class="nav-item dropdown">
+                <li class="dropdown nav-li">
                   <a class="nav-link dropdown-toggle text-dark p-2 font-weight-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    PROYECTS
+                    Finished
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="./proyects_finished.html">FINISHED</a></li>
-                    <li><a class="dropdown-item" href="./proyects_in_pogress.html">IN PROGRESS</a></li>
-                    <div class="w3-dropdown-hover">London
-                    </div>
-                    <li><a class="dropdown-item" href="./proyects_in_pogress.html">IN PROGRESS</a></li>
-                    <li><a class="dropdown-item" href="./proyects_in_pogress.html">IN PROGRESS</a></li>
-                    <li><a class="dropdown-item" href="./proyects_in_pogress.html">IN PROGRESS</a></li>  
+                    <li><a class="dropdown-item" href="./assets_proyects/LadingPage/index.html">Landing Pages</a></li>
+                    <li><a class="dropdown-item" href="./assets_proyects/desarrollo_Tienda/index.html">Tienda Virtual</a></li>
+                    <li><a class="dropdown-item" href="./assets_proyects/juego_Calaveras/index.html">Juego Calaveras</a></li>  
+                    <li><a class="dropdown-item" href="./assets_proyects/platzi_Angelo/gameparallax.html">Game Parallax</a></li> 
+                    <li><a class="dropdown-item" href="./assets_proyects/platzi_Angelo/google.html">Replica Google</a></li> 
+                    <li><a class="dropdown-item" href="./proyects_in_pogress.html">Restauramne el Gaucho</a></li> 
                   </ul>
                 </li>
    
             </ul>   
-        </div>
+          </div>
 
-        <div class="mask jus" style="background-color: rgba(0, 0, 0, 0.6); margin-top: 120px; padding: 20px;">   
-          <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="container-fluid mask jus" style="background-color: rgba(0, 0, 0, 0.6); padding: 20px; margin: 20% auto; border-radius: 23px;">   
+            <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white">
               <h1 class="mb-3">PROYECTOS PERSONALES</h1>
               <h4 class="mb-3">FINALIZADOS</h4>
-              <a class="btn btn-outline-light btn-lg" href="#!" role="button"
+              <a class="btn btn-outline-light btn-lg" href="./finished.html" role="button"
               >Ver Proyectos</a
               >
             </div>
+            </div>
           </div>
-        </div>
 
-        <div class="container-sm d-flex flex-column flex-sm-fill">
+          <!-- <div class="container-sm d-flex flex-column flex-sm-fill">
             <div class="card-group">
                 <div class="card container-cards-proyects">
                   <img src="./assets/images/agro-tech.jpg" class="card-img-top" alt="...">
@@ -140,7 +96,7 @@
                   </div>
                 </div>
             </div>
-        </div>
+          </div> -->
     </div>
 
     <footer class="bg-light text-center ">

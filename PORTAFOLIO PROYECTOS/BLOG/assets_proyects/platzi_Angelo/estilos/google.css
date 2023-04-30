@@ -1,0 +1,168 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px; 
+    font-family: 'Times New Roman', Times, serif;
+}*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+.nav-rigth-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav-rigth-section li{
+    margin-left: 10px;
+}
+.nav-rigth-section a{
+    margin-right: 10px;
+    color: #000000;
+    text-decoration: none;   
+    font-weight: 600;
+}
+.nav-rigth-section li a:hover{
+    color: rgb(236, 9, 9);
+}
+.menu-icon-father:hover{
+    background-color: rgb(117, 111, 111);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+.menu-icon{
+    background-image: url('https://cdn-icons-png.flaticon.com/128/17/17704.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 17px;
+    height: 30px;
+}
+.profile-photo img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px; 
+    margin: 3px;  
+}
+.profile-photo div:hover{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(117, 111, 111);
+}
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+.main-logo{
+    width: 530px;   
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main-logo img{
+    width: 300px;   
+}
+.main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid rgb(104, 143, 82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-input-container input{
+    width: 450px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(238, 244, 245);
+}
+.main-input-container:hover{
+    box-shadow: 0 0 2px 2px #20212470;
+}
+.main-button{
+    display: flex;
+    justify-content: center;
+}
+.main-button div button{
+   margin: 0 10px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.main-button div button:hover{
+    box-shadow: 0 0 2px 2px #20212470;
+}
+.search-icon{
+    background-image: url('https://www.flaticon.com/svg/vstatic/svg/3917/3917132.svg?token=exp=1647044706~hmac=b09dda564e1612c6cc8159cf9fdb0532');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.micro-icon{
+    background-image: url('https://cdn-icons.flaticon.com/png/512/2204/premium/2204947.png?token=exp=1647045655~hmac=02b04a8d736334fe51b2caf5be7f687c');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.footer-left{
+    display: flex;
+    list-style: none;
+}.footer-left li{
+    margin-right: 35px;
+}
+.footer-left li a{
+    text-decoration: none;
+    color: #000000;
+}
+.footer-rigth{
+    display: flex;
+    list-style: none;
+}.footer-rigth li{
+    margin-right: 35px;
+}
+.footer-rigth li a{
+    text-decoration: none;
+    color: #000000;
+}
+.footer-left li a:hover,
+.footer-rigth li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 161px;
+    border-top: 1px solid rgb(163, 155, 155);
+    background-color: #e7e3e3;
+}
+

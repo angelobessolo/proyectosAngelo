@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 237, 230);
+}
+header{
+    display: inline-flex;
+    width: 100%;
+    background-color: rgb(235, 231, 226);
+}
+.logotipo{
+    width: 200px;
+    height: 120px;
+}
+.logotipo img{
+    width: 200px;
+    height: 120px;
+}
+nav{
+    background-color: rgb(235, 231, 226);
+    width: 100%;
+}
+.nav-menu{
+    list-style: none;
+    text-align: center;
+    color: rgb(24, 49, 26);
+    font-size: 17px ;
+}
+.nav-menu li{
+    display: inline-block;
+    position: relative;
+    top: 70px; 
+    margin-left: 45px;
+    cursor: pointer;
+}
+.nav-menu li:hover{
+    background-color: rgb(23, 59, 38);
+    color: rgb(255, 254, 250);
+}
+.nav-menu li:nth-child(6){
+    position: relative;
+    top: 70px; left: 85px;
+}
+.icon-user{
+    width: 50px;
+    height: 50px;
+}
+.icon-user img{
+    width: 50px;
+    height: 50px;
+}
+.page-main{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(118, 121, 138); 
+}
+.producto-principal{
+    margin: 100px 0 0 300px;
+    padding: 0;
+    border: 4px dashed rgb(219, 15, 15) ;
+    background-color: rgb(163, 186, 204);  
+    height: min-content; 
+    width: 508px;
+}
+.producto-principal img{
+    width: 500px;
+    height: 300px;    
+}
+.producto-principal h2{
+    text-align: center; 
+    color: rgb(27, 42, 124);   
+}
+.producto-principal h4{
+    text-align:justify; 
+    color: rgb(12, 12, 12);   
+}
+.seccion-productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    background-color: rgb(118, 121, 138);    
+}
+.seccion-productos div{
+    margin-bottom: 5px;
+}
+.seccion-productos div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px; 
+}
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+    background-color: #a7946b;
+}
+.contact-us li{
+    margin: 25px;
+    list-style: none;
+    font-size: 18px;
+}
+.contact-us li a{
+    text-decoration: none;
+    color: rgb(3, 14, 5);  
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes-sociales figure{
+    width: 150px;
+    text-align: center;
+}
+.redes-sociales img{
+    width: 50px;
+}
+
+
